@@ -41,7 +41,7 @@ export const Signup = () => {
                       password,
                     })
                     .then((res) => {
-                      if (res.status === 200) {
+                      if (res.status === 201) {
                         router.push('/signin');
                       }
                     })
